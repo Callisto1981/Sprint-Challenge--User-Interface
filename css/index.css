@@ -29,7 +29,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    border:10px;
+    margin:0 auto;
+    padding:5px;
+    line-height: 1;
+    max-width: 95%;
 }
 ol, ul {
 	list-style: none;
@@ -60,6 +64,36 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+
+.divnav{
+    display:flex;
+    justify-content: space-evenly;
+    margin:0 auto;
+border:8px solid white;
+    align-items: flex-end;
+}
+
+.divimg{
+border:15px solid white;
+    display:flex;
+    justify-content: center;
+}
+
+.nava{
+display:flex;
+justify-content:space-around;
+width:150%;
+align-items: flex-end;
+}
+
+.nava a{
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+    color:black;
+    text-decoration: none;
+    align-self:baseline;
 }
 
 p {
@@ -101,10 +135,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: rgb(25, 155, 155);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(235, 235, 75);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background:rgb(137, 212, 237);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(235, 184, 139);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(191, 24, 88);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(43, 155, 62);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(177, 69, 182);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(232, 146, 230);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(84, 39, 187);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(47, 136, 163);
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +276,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*CSS 2 starts here*/
+
+.container about-page{
+    border:10px;
+    margin:0 auto;
+    padding:5px;
+    line-height: 1;
+}
+
+.divnav2{
+    display:flex;
+    justify-content: space-evenly;
+    margin:0 auto;
+border:8px solid white;
+    align-items: flex-end;
+}
+
+.set1{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.set2{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.div1{
+    border:20px solid white;
+}
+
+.div2{
+    border:20px solid white;
+}
+
+.div3{
+    border:20px solid white;
+}
+
+.div4{
+    border:20px solid white;
 }
